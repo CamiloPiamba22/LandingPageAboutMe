@@ -18,7 +18,8 @@ header{
 }
 
 main{
-
+    padding: 5%;
+    text-align: justify;
 }
 
 footer{
@@ -26,29 +27,36 @@ footer{
 }
 
 /*-------------------------------------------------------------------------------
-IMG
--------------------------------------------------------------------------------*/
-
-img{
-    width: 600px;
-}
-
-/*-------------------------------------------------------------------------------
 MUSIC
 -------------------------------------------------------------------------------*/
 
 .Sound{
-    
+    background-color: rgb(17, 35, 49);
+    padding: 0.5%;
+    margin-right: 600px;
+    margin-block-end: 22px;
+    border-radius: 22px;
 }
 
 .Number{
-
+    background-color: rgb(0, 0, 0);
+    padding: 0.5%;
+    margin-right: 500px;
+    margin-left: 4px;
+    border-radius: 22px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .TitleSound{
-
+    margin-left: 12px;
+    scroll-padding: unset;
 }
 
 .ArtistSound{
-
+    margin-left: 12px;
 }
+
+/*-------------------------------------------------------------------------------
+IMG
+-------------------------------------------------------------------------------*/
