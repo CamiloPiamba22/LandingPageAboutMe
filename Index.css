@@ -30,33 +30,62 @@ footer{
 MUSIC
 -------------------------------------------------------------------------------*/
 
-.Sound{
-    background-color: rgb(17, 35, 49);
-    padding: 0.5%;
-    margin-right: 600px;
-    margin-block-end: 22px;
-    border-radius: 22px;
+article.TopFavoriteMusic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
 }
 
-.Number{
-    background-color: rgb(0, 0, 0);
-    padding: 0.5%;
-    margin-right: 500px;
-    margin-left: 4px;
-    border-radius: 22px;
-    margin-top: 5px;
-    text-align: center;
+article.TopFavoriteMusic h4 {
+    grid-column: 1 / -1;
 }
 
-.TitleSound{
-    margin-left: 12px;
-    scroll-padding: unset;
+div.Sound {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
-.ArtistSound{
-    margin-left: 12px;
+p.Number {
+    font-size: 0.75rem;
+    color: #888;
+    margin: 0;
+}
+
+p.TitleSound {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+p.ArtistSound {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+}
+
+.Empty{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    height: 80px;
 }
 
 /*-------------------------------------------------------------------------------
 IMG
 -------------------------------------------------------------------------------*/
+
+div.DeviceCenter {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+img.DeviceCenter {
+    width: 48%;
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
