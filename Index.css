@@ -36,35 +36,39 @@ article.TopFavoriteMusic {
     gap: 16px;
 }
 
-article.TopFavoriteMusic h4 {
+h4 {
     grid-column: 1 / -1;
 }
 
 div.Sound {
     border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 12px 16px;
+    border-radius: 22px;
+    padding: 5px 16px;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
 p.Number {
+    padding: 1%;
+    background-color: rgb(43, 71, 82);
+    color: white;
     font-size: 0.75rem;
-    color: #888;
-    margin: 0;
+    margin-right: 480px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 p.TitleSound {
     font-size: 1rem;
     font-weight: bold;
-    margin: 0;
+    margin-top: 0px;
 }
 
 p.ArtistSound {
     font-size: 0.85rem;
-    color: #555;
-    margin: 0;
+    color: #7a7a7a;
+    margin-top: -5px;
 }
 
 .Empty{
