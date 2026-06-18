@@ -16,6 +16,10 @@ PARTS OF PAGE
 
 header{
     Text-align: center;
+    color: Black;
+    background-color: rgb(79, 160, 142);
+    padding: 2%;
+    border-radius: 22px;
 }
 
 main{
@@ -25,6 +29,14 @@ main{
 
 footer{
     Text-align: center;
+}
+
+/*-------------------------------------------------------------------------------
+General elements
+-------------------------------------------------------------------------------*/
+
+h2{
+    color: rgb(79, 160, 142);
 }
 
 /*-------------------------------------------------------------------------------
@@ -88,7 +100,7 @@ p.Number {
     background-color: rgb(43, 71, 82);
     color: white;
     font-size: 0.75rem;
-    margin-right: 480px;
+    margin-right: 425px;
     border-radius: 20px;
     text-align: center;
 }
@@ -131,6 +143,6 @@ img.DeviceCenter {
 img.CHDOS3{
     max-width: 100%;
     height: auto;
-    width: 550px;
-    padding: 20px;
+    width: 510px;
+    padding: 15px;
 }
