@@ -7,6 +7,7 @@ body{
     Background-color: #081016;
     font-family: 'MiFuente', sans-serif;
     color: rgb(172, 172, 172);
+    font-size: 15px;
 }
 
 /*-------------------------------------------------------------------------------
@@ -41,13 +42,22 @@ div.ISection{
 }
 
 article.WhoAmI{
+    font-size: 14px;
+}
 
+article.WhoAmI2{
+    font-size: 14px;
 }
 
 img.I{
     display: grid;
-    width: 390px;
+    width: 350px;
     border-radius: 20px;
+}
+
+p.ChangePromes{
+    font-size: 16px;
+    color: blue;
 }
 
 /*-------------------------------------------------------------------------------
