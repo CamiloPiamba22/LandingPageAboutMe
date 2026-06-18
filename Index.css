@@ -51,7 +51,7 @@ hr.EmptyMini{
 .Empty{
     background-color: rgba(255, 0, 0, 0);
     border: none;
-    height: 100px;
+    height: 150px;
 }
 
 /*-------------------------------------------------------------------------------
@@ -112,10 +112,16 @@ div.Sound {
         background-color: rgb(158, 241, 241);
         color: rgb(0, 39, 34);
         font-size: 0.75rem;
-        margin-right: 450px;
         border-radius: 20px;
         text-align: center;
         box-shadow: 0 0 10px 2px rgba(44, 121, 121, 0.5);
+
+        display: flex;
+        justify-content: left;
+        padding: 1%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 12px;
     }
 
     p.TitleSound {
@@ -136,7 +142,7 @@ div.Sound {
     }
 
     a.Lisen{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.884);
         color: black;
         text-align: center;
         padding: 1%;
@@ -182,29 +188,26 @@ IMG
 
 img.I{ /*Image of WHO AM I? */
     display: grid;
-    width: 350px;
+    width: 300px;
     border-radius: 20px;
     box-shadow: 0 0 40px 2px rgba(185, 185, 185, 0.25)
 }
 
 img.TDAHDiscalc{
-    display: block;
     margin: auto;
-    width: 1000px;
+    width: 100%;
     border-radius: 20px;
 }
 
 img.ILike{
-    display: block;
     margin: auto;
-    width: 1000px;
+    width: 100%;
     border-radius: 20px;
 }
 
 img.MiLive{
-    display: block;
     margin: auto;
-    width: 1000px;
+    width: 100%;
     border-radius: 20px;
 }
 
