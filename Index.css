@@ -99,8 +99,7 @@ h4 {
 }
 
 div.Sound {
-    background-color: rgb(16, 46, 46);
-
+    background-color: rgb(23, 49, 49);
     border-radius: 22px;
     padding: 5px 16px;
     display: flex;
@@ -110,10 +109,10 @@ div.Sound {
 
     p.Number {
         padding: 1%;
-        background-color: rgb(44, 121, 121);
-        color: white;
+        background-color: rgb(158, 241, 241);
+        color: rgb(0, 39, 34);
         font-size: 0.75rem;
-        margin-right: 425px;
+        margin-right: 450px;
         border-radius: 20px;
         text-align: center;
         box-shadow: 0 0 10px 2px rgba(44, 121, 121, 0.5);
