@@ -28,6 +28,9 @@ main{
 }
 
 footer{
+    background-color: black;
+    padding: 3%;
+    border-radius: 20px;
     Text-align: center;
 }
 
@@ -71,13 +74,13 @@ article.WhoAmI2{
 
 p.ChangePromes{
     font-size: 16px;
-    background-color: rgb(11, 70, 65);
+    background-color: rgb(132, 194, 189);
     padding: 1%;
     text-align: center;
     border-radius: 50px;
     margin-left: 150px;
     margin-right: 150px;
-    color: rgb(255, 255, 255);
+    color: rgb(24, 63, 54);
     box-shadow: 0 0 25px 5px rgba(91, 255, 236, 0.25);
 }
 
@@ -96,7 +99,7 @@ h4 {
 }
 
 div.Sound {
-    background-color: rgb(21, 61, 61);
+    background-color: rgb(16, 46, 46);
 
     border-radius: 22px;
     padding: 5px 16px;
@@ -169,7 +172,7 @@ img.I{ /*Image of WHO AM I? */
     display: grid;
     width: 350px;
     border-radius: 20px;
-    box-shadow: 0 0 40px 5px rgba(185, 185, 185, 0.25)
+    box-shadow: 0 0 40px 2px rgba(185, 185, 185, 0.25)
 }
 
 img.TDAHDiscalc{
@@ -193,10 +196,14 @@ img.MiLive{
     border-radius: 20px;
 }
 
+/* Contenido adicional*/
+
 img.DeviceCenter {
     max-width: 100%;
     height: auto;
     width: 220px;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 
@@ -205,4 +212,15 @@ img.CHDOS3{
     height: auto;
     width: 510px;
     padding: 15px;
+}
+
+/*-------------------------------------------------------------------------------
+Part of footer
+-------------------------------------------------------------------------------*/
+
+div.Socials{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
