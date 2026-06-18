@@ -84,7 +84,7 @@ h4 {
 }
 
 div.Sound {
-    background-color: rgb(21, 49, 61);
+    background-color: rgb(21, 61, 61);
 
     border-radius: 22px;
     padding: 5px 16px;
@@ -124,6 +124,36 @@ div.Sound {
 }
 
 /*-------------------------------------------------------------------------------
+CHD
+-------------------------------------------------------------------------------*/
+
+div.DeviceCenter {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+p.ProductName{
+    background-color: black;
+    color: rgb(75, 207, 207);
+    padding: 2%;
+    border-radius: 20px;
+}
+
+div.DeviceCenterImages{
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    border-radius: 20px;
+}
+
+div.CHDOSImages{
+    background-color: rgb(0, 0, 0);
+    padding: 0%;
+    border-radius: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------
 IMG
 -------------------------------------------------------------------------------*/
 
@@ -134,16 +164,12 @@ img.I{ /*Image of WHO AM I? */
     box-shadow: 0 0 40px 5px rgba(185, 185, 185, 0.25)
 }
 
-div.DeviceCenter {
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;
-}
+
 
 img.DeviceCenter {
     max-width: 100%;
     height: auto;
-    width: 200px;
+    width: 220px;
 }
 
 
