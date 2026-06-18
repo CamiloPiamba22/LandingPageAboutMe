@@ -164,7 +164,26 @@ img.I{ /*Image of WHO AM I? */
     box-shadow: 0 0 40px 5px rgba(185, 185, 185, 0.25)
 }
 
+img.TDAHDiscalc{
+    display: block;
+    margin: auto;
+    width: 1000px;
+    border-radius: 20px;
+}
 
+img.ILike{
+    display: block;
+    margin: auto;
+    width: 1000px;
+    border-radius: 20px;
+}
+
+img.MiLive{
+    display: block;
+    margin: auto;
+    width: 1000px;
+    border-radius: 20px;
+}
 
 img.DeviceCenter {
     max-width: 100%;
