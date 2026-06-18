@@ -130,9 +130,22 @@ div.Sound {
         font-size: 0.85rem;
         color: #ffffffb4;
         margin-top: -5px;
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-
+    a.Lisen{
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 1%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 12px;
+        
+    }
 
 /*-------------------------------------------------------------------------------
 CHD
