@@ -26,6 +26,10 @@ footer{
     Text-align: center;
 }
 
+article.WhoAmI{
+    
+}
+
 /*-------------------------------------------------------------------------------
 MUSIC
 -------------------------------------------------------------------------------*/
@@ -88,8 +92,15 @@ div.DeviceCenter {
 }
 
 img.DeviceCenter {
-    width: 48%;
     max-width: 100%;
     height: auto;
     width: 200px;
+}
+
+
+img.CHDOS3{
+    max-width: 100%;
+    height: auto;
+    width: 550px;
+    padding: 20px;
 }
