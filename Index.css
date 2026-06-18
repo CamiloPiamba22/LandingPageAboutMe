@@ -43,10 +43,6 @@ h2{
 WHO AM I?
 -------------------------------------------------------------------------------*/
 
-h2.FirstTitle{
-
-}
-
 div.ISection{
     display: grid;
     grid-template-columns: 1.5fr 0.5fr;
@@ -61,15 +57,16 @@ article.WhoAmI2{
     font-size: 14px;
 }
 
-img.I{
-    display: grid;
-    width: 350px;
-    border-radius: 20px;
-}
-
 p.ChangePromes{
     font-size: 16px;
-    color: blue;
+    background-color: rgb(11, 70, 65);
+    padding: 1%;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(185, 185, 185);
+    box-shadow: 0 0 25px 5px rgba(91, 255, 236, 0.25);
 }
 
 /*-------------------------------------------------------------------------------
@@ -87,7 +84,8 @@ h4 {
 }
 
 div.Sound {
-    border: 1px solid #ccc;
+    background-color: rgb(21, 49, 61);
+
     border-radius: 22px;
     padding: 5px 16px;
     display: flex;
@@ -95,27 +93,29 @@ div.Sound {
     gap: 4px;
 }
 
-p.Number {
-    padding: 1%;
-    background-color: rgb(43, 71, 82);
-    color: white;
-    font-size: 0.75rem;
-    margin-right: 425px;
-    border-radius: 20px;
-    text-align: center;
-}
+    p.Number {
+        padding: 1%;
+        background-color: rgb(44, 121, 121);
+        color: white;
+        font-size: 0.75rem;
+        margin-right: 425px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 0 10px 2px rgba(44, 121, 121, 0.5);
+    }
 
-p.TitleSound {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-top: 0px;
-}
+    p.TitleSound {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 0px;
+    }
 
-p.ArtistSound {
-    font-size: 0.85rem;
-    color: #7a7a7a;
-    margin-top: -5px;
-}
+    p.ArtistSound {
+        font-size: 0.85rem;
+        color: #ffffffb4;
+        margin-top: -5px;
+    }
 
 .Empty{
     background-color: rgba(255, 0, 0, 0);
@@ -126,6 +126,13 @@ p.ArtistSound {
 /*-------------------------------------------------------------------------------
 IMG
 -------------------------------------------------------------------------------*/
+
+img.I{ /*Image of WHO AM I? */
+    display: grid;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 5px rgba(185, 185, 185, 0.25)
+}
 
 div.DeviceCenter {
     display: flex;
